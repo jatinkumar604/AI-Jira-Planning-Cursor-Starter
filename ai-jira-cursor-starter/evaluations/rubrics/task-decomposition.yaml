@@ -1,0 +1,19 @@
+skill: task-decomposition
+weight: 20
+rating_scale:
+  '0': missing or incorrect
+  '1': major gaps
+  '2': substantial rework
+  '3': mostly adequate
+  '4': minor gaps
+  '5': excellent and evidence-backed
+criteria:
+- id: correctness
+  weight: 40
+  question: Is the output technically correct and supported by evidence?
+- id: completeness
+  weight: 35
+  question: Does it cover the required inputs, edge cases, and traceability?
+- id: actionability
+  weight: 25
+  question: Is it specific and usable by the next planning step?
